@@ -1,0 +1,106 @@
+.company-detail{
+    height: 93vh;
+}
+
+.company-detail .banner-img-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-detail .banner-img-section .banner-img {
+    width: 85%;
+
+}
+
+.company-detail .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #183247;
+}
+
+.company-detail .form-section .title-text {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.company-detail .form-section .sub-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: .5em 0;
+    color: #183247B2;
+}
+
+.company-detail .form-section .form {
+    margin: 2em 0;
+    width: 80%;
+}
+
+.company-detail .form-section .form .label-text {
+    color: #A1A6A9;
+}
+
+
+.company-detail .form-section .form .form-input, .company-detail .form-section .form .form-input:focus {
+    width: 100%;
+    border: 0.5px solid #A1A6A9;
+    border-radius: 2px;
+    padding: 1em .5em;
+    outline: none;
+}
+
+.company-detail .form-section .form .form-input::placeholder {
+    color: #A1A6A9;
+    opacity: 1;
+}
+
+.company-detail .form-section .form .domain-name-input-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-radius: 2px;
+    border: 0.5px solid #A1A6A9;
+    background: linear-gradient(180deg, rgba(235, 238, 240, 0.4) 0%, rgba(207, 207, 212, 0.4) 100%);
+
+}
+
+.company-detail .form-section .form .domain-name-input, .company-detail .form-section .form .domain-name-input:focus {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 1em .5em;
+    outline: none;
+}
+
+.domain-name-input-section .domain-text-section {
+    padding: 0 1em;
+}
+
+.company-detail .form-section .form .domain-name-input::placeholder {
+    color: #A1A6A9;
+    opacity: 1;
+}
+
+.company-detail .form-section .form .form-error-text {
+    color: red;
+}
+
+.company-detail .form-section .form .form-submit-btn {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--primary-green);
+    color: var(--primary-white);
+    padding: .75em 4em;
+    margin: 2em 0;
+    font-weight: 600;
+}

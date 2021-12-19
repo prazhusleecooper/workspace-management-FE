@@ -1,0 +1,39 @@
+/** GLOBALS.CSS -> GLOBAL STYLES  */
+
+/* ? FONTS */
+
+/* ? OPEN SANS FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+/* ? TEXT STYLING */
+
+span, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ? VARIABLES */
+:root {
+
+    /* ? COLOR VARIABLES */
+    --primary-green: #3BC163;
+    --primary-green-light: #EEFAF2;
+    --primary-grey: #A1A6A9;
+    --primary-white: #FFFFFF;
+    --primary-blue: #0B91F4;;
+} 
+
+/* ? DIMENSIONS */
+html, body{ 
+    height: 100%;  
+}
+
+#root {
+    /* height: 100vh; */
+}
+
+/* ? LOADER / SPINNER */
+.loader-spinner {
+    color: var(--primary-green);
+}

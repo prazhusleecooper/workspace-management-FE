@@ -1,0 +1,82 @@
+.verification-code{
+    height: 93vh;
+}
+
+.verification-code .banner-img-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.verification-code .banner-img-section .banner-img {
+    width: 85%;
+
+}
+
+.verification-code .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #183247;
+}
+
+.verification-code .form-section .title-text {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.verification-code .form-section .sub-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: .5em 0;
+    color: #183247B2;
+}
+
+.verification-code .form-section .form {
+    margin: 2em 0;
+    width: 100%;
+}
+
+.verification-code .form-section .form .label-text {
+    color: #A1A6A9;
+    margin: 0 0 .75em;
+}
+
+.verification-code .form-section .form .otp-input-section {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verification-code .form-section .form .form-input, .verification-code .form-section .form .form-input:focus {
+    border: 0.5px solid #A1A6A9;
+    border-radius: 2px;
+    margin: 0 .25em;
+    padding: 1em .5em;
+    width: 3em;
+    outline: none;
+    text-align: center;
+}
+
+.verification-code .form-section .form .form-input::placeholder {
+    color: #A1A6A9;
+    opacity: 1;
+}
+
+.verification-code .form-section .form .form-error-text {
+    color: red;
+}
+
+.verification-code .form-section .form .resend-code-btn {
+    cursor: pointer;
+    color: var(--primary-blue);
+}
